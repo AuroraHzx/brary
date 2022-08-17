@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.tv_hibottom -> {
                 startActivity(Intent(this, HiTabBottomDemoActivity::class.java))
             }
+            R.id.tv_refresh -> {
+                startActivity(Intent(this, HiTabBottomDemoActivity::class.java))
+            }
+
         }
     }
 

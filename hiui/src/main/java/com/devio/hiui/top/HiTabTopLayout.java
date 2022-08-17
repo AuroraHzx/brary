@@ -116,7 +116,7 @@ public class HiTabTopLayout extends HorizontalScrollView implements IHiTabLayout
             tabWith = tabTop.getWidth();
         }
         //判断点击了屏幕左侧还是右侧
-        if ((loc[0] + tabWith / 2) > HiDisplayUtil.getDisplayHeightInPx(getContext()) / 2) {
+        if ((loc[0] + tabWith / 2) > HiDisplayUtil.getDisplayWidthInPx(getContext()) / 2) {
             scrollWidth = rangeScrollWidth(index, 2);
         } else {
             scrollWidth = rangeScrollWidth(index, -2);

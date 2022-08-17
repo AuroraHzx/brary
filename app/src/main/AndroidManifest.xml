@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hilibrary">
         <activity
+            android:name=".demo.refresh.HiRefreshActivityDemo"
+            android:exported="true" />
+        <activity
             android:name=".demo.tab.HiTabTopDemoActivity"
             android:exported="true" />
         <activity
